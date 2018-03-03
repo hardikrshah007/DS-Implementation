@@ -209,10 +209,10 @@ int main ()
 		Graph.push_back(l1);
 	}
 	ifstream SCC_file;
-	//SCC_file.open("SCC.txt");
-	SCC_file.open("input_mostlyCycles_68_320000.txt");
+	SCC_file.open("./test_cases/input_mostlyCycles_68_320000.txt");
 	if(SCC_file.is_open())
 	{
+		cout<<"Found the file"<<endl;
 		while(!SCC_file.eof())
 		{
 			getline(SCC_file,line);
